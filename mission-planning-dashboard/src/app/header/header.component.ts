@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   missionName: string = "Mars 2030";
   rocketName: string = "Plasma Max";
+  crew: string[] = ["Jessica Watkins", "Raja Chari", "Jasmin Moghbeli"];
 
   constructor() { }
 
@@ -16,5 +17,7 @@ export class HeaderComponent implements OnInit {
   }
 
 }
+
+
 
 
